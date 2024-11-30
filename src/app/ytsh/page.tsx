@@ -121,11 +121,11 @@ const YardTestScoreSheet = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full grid grid-cols-10 border-t border-gray-300 text-white items-center">
+                <div className="w-full grid grid-cols-12 border-t border-gray-300 text-white items-center">
                     <div className="font-bold pl-2 col-span-7 bg-red-600 py-1 h-full flex items-center justify-start">
                         <span>Check Items Description</span>
                     </div>
-                    <div className="flex col-span-3 grid-cols-subgrid text-center items-center justify-center h-full">
+                    <div className="flex col-span-5 grid-cols-subgrid text-center items-center justify-center h-full">
                         <div className="flex flex-col h-full bg-red-600 text-center border-l border-r border-gray-300 pt-1 w-full">
                             <span>الموقف الموازي</span>
                             <span>Parallel Parking</span>
@@ -143,20 +143,20 @@ const YardTestScoreSheet = () => {
                         </div>
                     </div>
                 </div>
-                <div className="grid grid-cols-10 border-t border-gray-300 text-white items-center">
+                <div className="grid grid-cols-12 border-t border-gray-300 text-white items-center">
                     <div className="flex items-center justify-center col-span-1 h-full border-r border-b border-gray-300 row-span-10 text-center text-black font-thin">
                         <span className="px-1">
                             Entry Safety Checks احتياطات السلامة
                         </span>
                     </div>
-                    <div className="col-span-9 h-full">
-                        <div className="font-bold col-span-9 h-full grid">
-                            <div className="col-span-9 grid grid-cols-9 font-bold h-full">
+                    <div className="col-span-11 h-full">
+                        <div className="font-bold col-span-11 h-full grid">
+                            <div className="col-span-11 grid grid-cols-11 font-bold h-full">
                                 <div className="grid grid-cols-2 col-span-6 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                                     <span className="text-left">Fail to check left-right mirrors</span>
                                     <span className="text-right">عدم النظر إلى المرآتين يمينا و يسارا</span>
                                 </div>
-                                <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                                <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
                                     </div>
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -166,12 +166,12 @@ const YardTestScoreSheet = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-span-9 grid grid-cols-9">
+                            <div className="col-span-11 grid grid-cols-11">
                                 <div className="grid grid-cols-2 col-span-6 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                                     <span className="text-left"> Fail to check rear windscreen</span>
                                     <span className="text-right"> عدم النظر إلى النافذة الخلفية</span>
                                 </div>
-                                <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                                <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
                                     </div>
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -181,12 +181,12 @@ const YardTestScoreSheet = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-span-9 grid grid-cols-9">
+                            <div className="col-span-11 grid grid-cols-11">
                                 <div className="grid grid-cols-2 col-span-6 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                                     <span className="text-left">Fail to check right shoulder</span>
                                     <span className="text-right">عدم التحقق من نظرة فوق الكتف الايمن</span>
                                 </div>
-                                <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                                <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
                                         Not applicable لا ينطبق
                                     </div>
@@ -197,12 +197,12 @@ const YardTestScoreSheet = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-span-9 grid grid-cols-9">
+                            <div className="col-span-11 grid grid-cols-11">
                                 <div className="grid grid-cols-2 col-span-6 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                                     <span className="text-left"> Fail to check to the left shoulder while vehicle swings outwards into the bay</span>
                                     <span className="text-right">الموقف الموازي - الدخول - عدم النظر فوق الكتف الأيسر أثناء الرجوع و الالتفاف لدخول الموقف</span>
                                 </div>
-                                <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                                <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
                                     </div>
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -212,12 +212,12 @@ const YardTestScoreSheet = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-span-9 grid grid-cols-9">
+                            <div className="col-span-11 grid grid-cols-11">
                                 <div className="grid grid-cols-2 col-span-6 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                                     <span className="text-left"> Each additional reverse movement while entering the bay</span>
                                     <span className="text-right">الموقف الموازي - القيام بمناورة إضافية للرجوع عند الدخول للموقف</span>
                                 </div>
-                                <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                                <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
                                     </div>
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -226,12 +226,12 @@ const YardTestScoreSheet = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-span-9 grid grid-cols-9">
+                            <div className="col-span-11 grid grid-cols-11">
                                 <div className="grid grid-cols-2 col-span-6 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                                     <span className="text-left">Enter parking without signaling right indicator</span>
                                     <span className="text-right">الموقف المائل - الدخول - دخول الموقف دون استخدام الاشارة الضوئية</span>
                                 </div>
-                                <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                                <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
                                         Not applicable لا ينطبق
                                     </div>
@@ -242,12 +242,12 @@ const YardTestScoreSheet = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-span-9 grid grid-cols-9">
+                            <div className="col-span-11 grid grid-cols-11">
                                 <div className="grid grid-cols-2 col-span-6 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                                     <span className="text-left">Front entry of the parking bay</span>
                                     <span className="text-right"> الموقف الموازي - الدخول الأمامي للموقف</span>
                                 </div>
-                                <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                                <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
                                     </div>
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -257,12 +257,12 @@ const YardTestScoreSheet = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-span-9 grid grid-cols-9">
+                            <div className="col-span-11 grid grid-cols-11">
                                 <div className="grid grid-cols-2 col-span-6 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                                     <span className="text-left">Back entry of the parking bay</span>
                                     <span className="text-right"> الموقف المائل - الدخول الخلفي للموقف</span>
                                 </div>
-                                <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                                <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
                                         Not applicable لا ينطبق
                                     </div>
@@ -273,12 +273,12 @@ const YardTestScoreSheet = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-span-9 grid grid-cols-9">
+                            <div className="col-span-11 grid grid-cols-11">
                                 <div className="grid grid-cols-2 col-span-6 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                                     <span className="text-left">Enter from the left lane</span>
                                     <span className="text-right">الدخول من المسار اليساري</span>
                                 </div>
-                                <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                                <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
                                     </div>
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -293,19 +293,19 @@ const YardTestScoreSheet = () => {
                 </div>
             </div>
             <div className="border-r border-l border-b border-gray-300 text-[10px]">
-                <div className="grid grid-cols-10 text-white items-center">
+                <div className="grid grid-cols-12 text-white items-center">
                     <div className="flex items-center justify-center col-span-1 h-full border-r border-b border-gray-300 row-span-10 text-center text-black font-thin">
                         <span className="px-1">
                             Exit Safety Checks احتياطات السلامة
                         </span>
                     </div>
-                    <div className="col-span-9 h-full">
-                        <div className="col-span-9 grid grid-cols-9 font-bold h-full">
+                    <div className="col-span-11 h-full">
+                        <div className="col-span-11 grid grid-cols-11 font-bold h-full">
                             <div className="grid grid-cols-2 col-span-6 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                                 <span className="text-left">Fail to check left shoulder before leaving the bay</span>
                                 <span className="text-right">الموقف الموازي - الخروج - عدم النظر فوق الكتف الأيسر قبل الخروج</span>
                             </div>
-                            <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                            <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                                 <div className="flex-1 border-r border-gray-300 text-center p-2">
                                 </div>
                                 <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -314,12 +314,12 @@ const YardTestScoreSheet = () => {
                                     Not applicable لا ينطبق
                                 </div>
                             </div>
-                            <div className="col-span-9 grid grid-cols-9">
+                            <div className="col-span-11 grid grid-cols-11">
                                 <div className="grid grid-cols-2 col-span-6 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                                     <span className="text-left">Fail to check rear windscreen before leaving the bay</span>
                                     <span className="text-right">الموقف المائل - الخروج - عدم النظر إلى النافذة الخلفية قبل الخروج من الموقف</span>
                                 </div>
-                                <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                                <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
                                         Not applicable لا ينطبق
                                     </div>
@@ -330,12 +330,12 @@ const YardTestScoreSheet = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-span-9 grid grid-cols-9">
+                            <div className="col-span-11 grid grid-cols-11">
                                 <div className="grid grid-cols-2 col-span-6 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                                     <span className="text-left">Each additional reverse movement while exiting the bay</span>
                                     <span className="text-right">الموقف المائل - القيام بمناورة إضافية للرجوع عند الدخول للموقف</span>
                                 </div>
-                                <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                                <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
                                     </div>
                                     <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -350,12 +350,12 @@ const YardTestScoreSheet = () => {
             </div>
             <div className="border-r border-l border-b border-gray-300 text-[10px]">
                 <div className="h-full">
-                    <div className="grid grid-cols-10">
+                    <div className="grid grid-cols-12">
                         <div className="grid grid-cols-2 col-span-7 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Dry steering</span>
                             <span className="text-right">الموقف المائل -  توجيه العجلات و المركبة متوقفة</span>
                         </div>
-                        <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                        <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
                             </div>
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -364,12 +364,12 @@ const YardTestScoreSheet = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-10 grid grid-cols-10">
+                    <div className="col-span-12 grid grid-cols-12">
                         <div className="grid grid-cols-2 col-span-7 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left"> Fail to put gear on N or P at the end of parking</span>
-                            <span className="text-right"> - عند انتهاء الفحص (المركبة الأتوماتيك) P  النهاية - عدم وضع ناقل السرعة الأتوماتيك على </span>
+                            <span className="text-right"> - عند انتهاء الفحص (المركبة الأتوماتيك) P   عدم وضع ناقل السرعة الأتوماتيك على </span>
                         </div>
-                        <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                        <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
                             </div>
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -379,12 +379,12 @@ const YardTestScoreSheet = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-10 grid grid-cols-10">
+                    <div className="col-span-12 grid grid-cols-12">
                         <div className="grid grid-cols-2 col-span-7 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Fail to pull up handbrake after parking inside the bay</span>
                             <span className="text-right">الموقف المائل - عدم سحب المكبح اليدوي بعد ركن المركبة داخل الموقف</span>
                         </div>
-                        <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                        <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
                             </div>
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -393,12 +393,12 @@ const YardTestScoreSheet = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-10 grid grid-cols-10">
+                    <div className="col-span-12 grid grid-cols-12">
                         <div className="grid grid-cols-2 col-span-7 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Fail to release handbreake while vehicle is moving</span>
                             <span className="text-right">الموقف المائل - عدم تحرير المكبح اليدوي أثناء القيادة</span>
                         </div>
-                        <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                        <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
                             </div>
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -407,12 +407,12 @@ const YardTestScoreSheet = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-10 grid grid-cols-10">
+                    <div className="col-span-10 grid grid-cols-12">
                         <div className="grid grid-cols-2 col-span-7 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Touch parking line</span>
                             <span className="text-right">الموقف المائل - لمس أحد خطوط الموقف</span>
                         </div>
-                        <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                        <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
                             </div>
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -423,12 +423,12 @@ const YardTestScoreSheet = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-10 grid grid-cols-10">
+                    <div className="col-span-12 grid grid-cols-12">
                         <div className="grid grid-cols-2 col-span-7 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Position the vehicle outside the lot</span>
                             <span className="text-right">الموقف المائل - ركن المركبة خارج الموقف</span>
                         </div>
-                        <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                        <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
                             </div>
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -439,12 +439,12 @@ const YardTestScoreSheet = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-10 grid grid-cols-10">
+                    <div className="col-span-12 grid grid-cols-12">
                         <div className="grid grid-cols-2 col-span-7 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Exceeding allowed time to complete the maneuver</span>
                             <span className="text-right">الموقف المائل - تجاوز الوقت المسموح به لاتمام المناورة</span>
                         </div>
-                        <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                        <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
                                 00:00
                             </div>
@@ -456,12 +456,12 @@ const YardTestScoreSheet = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-10 grid grid-cols-10">
+                    <div className="col-span-12 grid grid-cols-12">
                         <div className="grid grid-cols-2 col-span-7 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Cause engine stalls two times in the same maneuver</span>
                             <span className="text-right">الموقف المائل - التوقف المفاجئ للمحرك مرتين في مناورة واحدة</span>
                         </div>
-                        <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                        <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
                             </div>
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -474,12 +474,12 @@ const YardTestScoreSheet = () => {
             </div>
             <div className="border-r border-l border-b border-gray-300 bg-gray-200 text-[10px]">
                 <div className="h-full">
-                    <div className="grid grid-cols-10">
+                    <div className="grid grid-cols-12">
                         <div className="grid grid-cols-2 col-span-7 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Fail to put gear on N while finishing test (Manual)</span>
-                            <span className="text-right">عند انتهاء الفحص N  النهاية - عدم وضع ناقل السرعة العادي على </span>
+                            <span className="text-right">عند انتهاء الفحص N  عدم وضع ناقل السرعة العادي على </span>
                         </div>
-                        <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                        <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
                             </div>
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -489,13 +489,13 @@ const YardTestScoreSheet = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-span-10 h-full">
-                    <div className="col-span-10 grid grid-cols-10">
+                <div className="col-span-12 h-full">
+                    <div className="col-span-12 grid grid-cols-12">
                         <div className="grid grid-cols-2 col-span-7 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Fail to put gear on N or P at the end of the exam</span>
-                            <span className="text-right">بعد الركن داخل الموقف P  النهاية - عدم وضع ناقل السرعة الأتوماتيك على </span>
+                            <span className="text-right">بعد الركن داخل الموقف P  عدم وضع ناقل السرعة الأتوماتيك على </span>
                         </div>
-                        <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                        <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
                             </div>
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -505,13 +505,13 @@ const YardTestScoreSheet = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-span-10 h-full">
-                    <div className="col-span-10 grid grid-cols-10">
+                <div className="col-span-12 h-full">
+                    <div className="col-span-12 grid grid-cols-12">
                         <div className="grid grid-cols-2 col-span-7 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left"> Fail to pull up handbrake while finishing test</span>
-                            <span className="text-right">النهاية - عدم سحب المكبح اليدوي بعد ركن المركبة عند انتهاء الفحص</span>
+                            <span className="text-right">عدم سحب المكبح اليدوي بعد ركن المركبة عند انتهاء الفحص</span>
                         </div>
-                        <div className="flex border-b border-gray-300 col-span-3 text-green-800 text-[6px] font-thin">
+                        <div className="flex border-b border-gray-300 col-span-5 text-green-800 text-[6px] font-thin">
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
                             </div>
                             <div className="flex-1 border-r border-gray-300 text-center p-2">
@@ -545,7 +545,7 @@ const YardTestScoreSheet = () => {
                     <div className="grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Fail to release handbrake while vehicle is moving</span>
-                            <span className="text-right">التلة - عدم تحرير المكبح اليدوي أثناء القيادة</span>
+                            <span className="text-right">عدم تحرير المكبح اليدوي أثناء القيادة</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -553,7 +553,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Touch the slope yellow line or cross it completely without stopping</span>
-                            <span className="text-right">التلة - لمس أو تجاوز الخط الأصفر للتلة دون التوقف لأداء المناورة</span>
+                            <span className="text-right">لمس أو تجاوز الخط الأصفر للتلة دون التوقف لأداء المناورة</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -561,7 +561,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Roll back more than 15cm and less than 30cm</span>
-                            <span className="text-right">التلة - الرجوع بالمركبة إلى الخلف بأكثر من 15 سم وأقل من 30 سم كل مرة</span>
+                            <span className="text-right">الرجوع بالمركبة إلى الخلف بأكثر من 15 سم وأقل من 30 سم كل مرة</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -569,7 +569,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Roll back by 30 cm or more</span>
-                            <span className="text-right">التلة - الرجوع بالمركبة إلى الخلف بأكثر من 30 سم</span>
+                            <span className="text-right">الرجوع بالمركبة إلى الخلف بأكثر من 30 سم</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -577,7 +577,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Exceeding allowed time to complete the maneuver</span>
-                            <span className="text-right">التلة - تجاوز الوقت المسموح به لاتمام لمناورة</span>
+                            <span className="text-right">تجاوز الوقت المسموح به لاتمام لمناورة</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin w-full justify-center items-center">
                             100
@@ -586,7 +586,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Cause engine stalls two times in the same maneuver</span>
-                            <span className="text-right">التلة - التوقف المفاجئ للمحرك مرتين في مناورة واحدة</span>
+                            <span className="text-right">التوقف المفاجئ للمحرك مرتين في مناورة واحدة</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -594,7 +594,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Dry Steering</span>
-                            <span className="text-right">التلة - توجيه العجلات والمركبة متوقفة</span>
+                            <span className="text-right">توجيه العجلات والمركبة متوقفة</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -602,7 +602,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Fail to pull up handbrake after stopping uphill</span>
-                            <span className="text-right">التلة - عدم استخدام المكبح اليدوي بعد التوقف على التلة</span>
+                            <span className="text-right">عدم استخدام المكبح اليدوي بعد التوقف على التلة</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -610,7 +610,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10 bg-gray-200">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Fail to put gear on N while finishing test (Manual)</span>
-                            <span className="text-right">عند انتهاء الفحص N  النهاية - عدم وضع ناقل السرعة العادي على </span>
+                            <span className="text-right">عند انتهاء الفحص N  عدم وضع ناقل السرعة العادي على </span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -618,7 +618,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10 bg-gray-200">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Fail to put gear on N or P at the end of the exam</span>
-                            <span className="text-right">بعد الركن داخل الموقف P  النهاية - عدم وضع ناقل السرعة الأتوماتيك على </span>
+                            <span className="text-right">بعد الركن داخل الموقف P  عدم وضع ناقل السرعة الأتوماتيك على </span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -626,7 +626,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10 bg-gray-200">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Fail to pull up handbrake while finishing test</span>
-                            <span className="text-right">النهاية - عدم سحب المكبح اليدوي بعد ركن المركبة عند انتهاء الفحص</span>
+                            <span className="text-right">عدم سحب المكبح اليدوي بعد ركن المركبة عند انتهاء الفحص</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -656,7 +656,7 @@ const YardTestScoreSheet = () => {
                     <div className="grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Touching the entry white line at less than 20 km/h</span>
-                            <span className="text-right">الفرملة الطارئة - تجاوز خط البداية بسرعة تقل عن 20 كم/ساعة</span>
+                            <span className="text-right">تجاوز خط البداية بسرعة تقل عن 20 كم/ساعة</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -664,7 +664,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Touching the exit line (partially or pass it completely) without completing the maneuver</span>
-                            <span className="text-right">الفرملة الطارئة - لمس أو تجاوز خط النهاية الأصفر دون التوقف لأداء المناورة</span>
+                            <span className="text-right">لمس أو تجاوز خط النهاية الأصفر دون التوقف لأداء المناورة</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -672,7 +672,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Depress the brake before touching the white entry line before hearing signal sound</span>
-                            <span className="text-right">الفرملة الطارئة - استعمال الفرامل قبل تجاوز خط البداية</span>
+                            <span className="text-right">استعمال الفرامل قبل تجاوز خط البداية</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -680,7 +680,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">(Manual)Depress the clutch before the brake</span>
-                            <span className="text-right">الفرملة الطارئة - استعمال القابض قبل الفرامل</span>
+                            <span className="text-right">استعمال القابض قبل الفرامل</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -688,7 +688,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">(Manual)Depress the brake and clutch at the same time</span>
-                            <span className="text-right">الفرملة الطارئة - استعمال القابض و الفرامل معاً في نفس الوقت</span>
+                            <span className="text-right">استعمال القابض و الفرامل معاً في نفس الوقت</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin w-full justify-center items-center">
                         </div>
@@ -696,7 +696,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Unable to stop within stipulated distance</span>
-                            <span className="text-right">الفرملة الطارئة - غير قادر على التوقف ضمن المسافة المحددة</span>
+                            <span className="text-right">غير قادر على التوقف ضمن المسافة المحددة</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -704,7 +704,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Unable to stop within stipulated distance</span>
-                            <span className="text-right">الفرملة الطارئة - غير قادر على التوقف ضمن المسافة المحددة</span>
+                            <span className="text-right">غير قادر على التوقف ضمن المسافة المحددة</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -712,7 +712,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Unable to stop within stipulated distance</span>
-                            <span className="text-right">الفرملة الطارئة - غير قادر على التوقف ضمن المسافة المحددة</span>
+                            <span className="text-right">غير قادر على التوقف ضمن المسافة المحددة</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -720,7 +720,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Not holding the steering wheel with both hands when braking</span>
-                            <span className="text-right">الفرملة الطارئة - عدم إمساك عجلة القيادة بكلتا اليدين عند استعمال</span>
+                            <span className="text-right">عدم إمساك عجلة القيادة بكلتا اليدين عند استعمال</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -728,7 +728,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Fail to release handbrake while vehicle is moving</span>
-                            <span className="text-right">الفرملة الطارئة - عدم تحرير المكبح اليدوي أثناء القيادة</span>
+                            <span className="text-right">عدم تحرير المكبح اليدوي أثناء القيادة</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
@@ -736,7 +736,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Exceeding allowed time to complete the maneuver</span>
-                            <span className="text-right">الفرملة الطارئة - تجاوز الوقت المسموح به لاتمام لمناورة</span>
+                            <span className="text-right">تجاوز الوقت المسموح به لاتمام لمناورة</span>
                         </div>
                         <div className="flex items-center justify-center border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                             00:00
@@ -745,7 +745,7 @@ const YardTestScoreSheet = () => {
                     <div className="col-span-10 grid grid-cols-10">
                         <div className="grid grid-cols-2 col-span-8 text-black font-thin px-2 border-r border-b border-gray-300 items-center">
                             <span className="text-left">Cause engine stalls two times in the same maneuver</span>
-                            <span className="text-right">الفرملة الطارئة - التوقف المفاجئ للمحرك مرتين في مناورة واحدة</span>
+                            <span className="text-right">التوقف المفاجئ للمحرك مرتين في مناورة واحدة</span>
                         </div>
                         <div className="flex border-b border-gray-300 col-span-2 text-green-800 text-[6px] font-thin">
                         </div>
