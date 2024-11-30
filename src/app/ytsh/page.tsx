@@ -68,7 +68,7 @@ const YardTestScoreSheet = () => {
                             <span className="px-2 flex justify-center items-center space-x-1 whitespace-nowrap">
                                 <p>0</p>
                             </span>
-                            <span className="px-2 w-1/2 text-right">نوع تجربج الامتحان</span>
+                            <span className="px-2 w-1/2 text-right">نوع تجربة الامتحان</span>
                         </div>
                         <div className="w-full flex">
                             <span className="px-2 w-1/2 text-left">Start time</span>
@@ -101,7 +101,7 @@ const YardTestScoreSheet = () => {
                         </div>
                         <div className="w-full flex items-center border-t-2 border-gray-300">
                             <span className="px-2 w-1/2 text-left">If the candidate performs an improper action that causes accident of near accident, of failing to comply to Traffic Rules and/or any instructions by the Examiner, this shall</span>
-                            <span className="px-2 w-1/2 text-right">في حال فيام المرشح بتصرف غير صحيح نتج عنه (أو يكاد) حادث، أو لم يلتزم بقواعد المرور و إرشادات الفاحص، فإنه يترتب علي ذلك رسوب فوري</span>
+                            <span className="px-2 w-1/2 text-right">في حال قيام المرشح بتصرف غير صحيح نتج عنه (أو يكاد) حادث، أو لم يلتزم بقواعد المرور و إرشادات الفاحص، فإنه يترتب علي ذلك رسوب فوري</span>
                         </div>
                     </div>
                 </div>
@@ -938,8 +938,6 @@ const YardTestScoreSheet = () => {
                 </div>
                 <div className="col-span-5 text-sm border border-gray-300  flex justify-between items-center px-3 h-[80px]">
                 </div>
-            </div>
-            <div className="col-span-5 text-sm h-[80px]">
             </div>
         </div >
     );
